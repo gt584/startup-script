@@ -21,7 +21,9 @@
 ;Disable scratch buffer
 (kill-buffer "*scratch*")
 
-;haskell-mode
+;******************************************************************************
+;HASKELL-MODE
+;******************************************************************************
 (add-to-list 'load-path "/home/gtsui/gtsui/lib/emacslib/haskell-mode/")
 (require 'haskell-mode-autoloads)
 (add-to-list 'Info-default-directory-list "/home/gtsui/gtsui/lib/emacslib/haskell-mode/")
@@ -38,3 +40,15 @@
 ;;(add-hook 'haskell-mode-hook 'turn-on-haskell-indentation)
 (add-hook 'haskell-mode-hook 'turn-on-haskell-indent)
 ;;(add-hook 'haskell-mode-hook 'turn-on-haskell-simple-indent)
+;******************************************************************************
+;HASKELL-MODE
+;******************************************************************************
+
+
+
+
+;******************************************************************************
+;GO-MODE
+;******************************************************************************
+(add-to-list 'load-path "/home/gtsui/gtsui/lib/emacslib/go-mode/")
+(require 'go-mode-autoloads)
