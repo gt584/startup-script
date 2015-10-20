@@ -20,35 +20,3 @@
 
 ;Disable scratch buffer
 (kill-buffer "*scratch*")
-
-;******************************************************************************
-;HASKELL-MODE
-;******************************************************************************
-(add-to-list 'load-path "/home/gtsui/gtsui/lib/emacslib/haskell-mode/")
-(require 'haskell-mode-autoloads)
-(add-to-list 'Info-default-directory-list "/home/gtsui/gtsui/lib/emacslib/haskell-mode/")
-
-(load "/home/gtsui/gtsui/lib/emacslib/haskell-mode/haskell-string.el")
-(load "/home/gtsui/gtsui/lib/emacslib/haskell-mode/haskell-sort-imports.el")
-(load "/home/gtsui/gtsui/lib/emacslib/haskell-mode/haskell-align-imports.el")
-(load "/home/gtsui/gtsui/lib/emacslib/haskell-mode/haskell-compat.el")
-(load "/home/gtsui/gtsui/lib/emacslib/haskell-mode/haskell-complete-module.el")
-(load "/home/gtsui/gtsui/lib/emacslib/haskell-mode/haskell-mode.el")
-
-(add-hook 'haskell-mode-hook 'turn-on-haskell-doc-mode)
-
-;;(add-hook 'haskell-mode-hook 'turn-on-haskell-indentation)
-(add-hook 'haskell-mode-hook 'turn-on-haskell-indent)
-;;(add-hook 'haskell-mode-hook 'turn-on-haskell-simple-indent)
-;******************************************************************************
-;HASKELL-MODE
-;******************************************************************************
-
-
-
-
-;******************************************************************************
-;GO-MODE
-;******************************************************************************
-(add-to-list 'load-path "/home/gtsui/gtsui/lib/emacslib/go-mode/")
-(require 'go-mode-autoloads)
